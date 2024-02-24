@@ -29,8 +29,7 @@ public class Buku21 {
         if (stok > 0) {
             stok -= jml;
             if (stok > 0) {
-                stok = 0; 
-                
+                stok = 0;      
             }
         } else {
             System.out.println("Mohon Maaf stok buku tidak ada!");
