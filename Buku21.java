@@ -29,7 +29,8 @@ public class Buku21 {
         if (stok > 0) {
             stok -= jml;
             if (stok > 0) {
-                stok = 0; //unutk membiarkan stok ke 0 tetap menetap jika stok negatif(tdk baik) 
+                stok = 0; 
+                
             }
         } else {
             System.out.println("Mohon Maaf stok buku tidak ada!");
