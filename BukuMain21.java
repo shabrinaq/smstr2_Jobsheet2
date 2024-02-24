@@ -21,7 +21,7 @@ public class BukuMain21 {
         bk2.tampilanInformasi();
 
         Buku21 bkShabrinaQ = new Buku21("First Love", "Bella Rahmadini", 160, 20, 75000);
-        bkShabrinaQ.terjual(15);
+        bkShabrinaQ.terjual(12);
         bkShabrinaQ.tampilanInformasi();
     }
 }
