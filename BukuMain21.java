@@ -14,7 +14,10 @@ public class BukuMain21 {
         bk1.tampilanInformasi(); //untuk menmapilkan informasi sebelum terjual dan ganti harga
         bk1.terjual(5); //buku yang terjual(stok)
         bk1.gantiHarga(60000); //mengubah harga buku
-        bk1.tampilanInformasi(); //menampilkan informasi buku setelah terjual dan ganti harga    
+        bk1.tampilanInformasi(); //menampilkan informasi buku setelah terjual dan ganti harga  
+        
+        Buku21 bk2 = new Buku21("Self Reward", "Maheera Ayesha", 160, 29, 59000);
+        bk2.terjual(11);
+        bk2.tampilanInformasi();
     }
 }
-//coba
