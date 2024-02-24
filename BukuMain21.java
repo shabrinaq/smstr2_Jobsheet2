@@ -19,5 +19,9 @@ public class BukuMain21 {
         Buku21 bk2 = new Buku21("Self Reward", "Maheera Ayesha", 160, 29, 59000);
         bk2.terjual(11);
         bk2.tampilanInformasi();
+
+        Buku21 bkShabrinaQ = new Buku21("First Love", "Bella Rahmadini", 160, 20, 75000);
+        bkShabrinaQ.terjual(15);
+        bkShabrinaQ.tampilanInformasi();
     }
 }
